@@ -188,22 +188,11 @@ gulp.task('postcss', 'build postcss files', function() {
 });
 
 function serve() {
-  var app = require('express')();
-  var webserver = require('gulp-webserver');
-
-  var host = 'localhost';
-  var port = process.env.PORT || 8000;
-  var server = gulp.src(process.cwd())
-      .pipe(webserver({
-        port,
-        host,
-        directoryListing: true,
-        livereload: true,
-        https: false,
-        middleware: [app],
-      }));
-
-  return server;
+  var express = require('express');
+  var app = express();
+  app.use(express.static(config.dest.default));
+  app.listen(3000);
+  console.log("Listening on port 3000....")
 }
 
 gulp.task('serve', serve);
