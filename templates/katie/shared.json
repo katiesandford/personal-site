@@ -21,10 +21,7 @@
     "faq": {
       "links": [
         {
-          "link": {"url": "./", "text": "About"}
-        },
-        {
-          "link": {"url": "#", "text": "Contact"}
+          "link": {"url": "mailto:katie.l.sandford@gmail.com?Subject=Hi", "text": "Contact"}
         }
       ]
     }
@@ -39,7 +36,6 @@
     },
     "faq-links": {
       "links": [
-        {"text": "About", "url": "./"},
         {"text": "Contact", "url": "mailto:katie.l.sandford@gmail.com?Subject=Hi"}
       ]
     },
