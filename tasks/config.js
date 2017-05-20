@@ -18,7 +18,7 @@ module.exports = {
   src: {
     components: 'components/**/*.*',
     templates: '{templates, dummy}/**/*.html',
-    www_pages: 'www/**/*.html',
+    page_templates: 'templates/katie/**/*.html',
     hl_partials: 'hl-partials/**/*.html',
     css: ['css/**/*.css', '!css/ampstart-base/**/*.css'],
     data: '*/**/*.json',
@@ -28,7 +28,6 @@ module.exports = {
   dest: {
     default: 'dist',
     templates: 'dist',
-    www_pages: 'dist',
     hl_partials: 'dist/hl-partials',
     css: 'dist/css/',
     img: 'dist/img/',

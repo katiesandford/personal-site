@@ -8,7 +8,7 @@
     },
     "nav": [
       {
-        "link": {"url": "./home.html", "text": "About"}
+        "link": {"url": "./", "text": "About"}
       },
       {
         "link": {"url": "./experience.html", "text": "Experience"}
@@ -23,7 +23,7 @@
     "faq": {
       "links": [
         {
-          "link": {"url": "./home.html", "text": "About"}
+          "link": {"url": "./", "text": "About"}
         },
         {
           "link": {"url": "#", "text": "Contact"}
@@ -41,7 +41,7 @@
     },
     "faq-links": {
       "links": [
-        {"text": "About", "url": "./home.html"},
+        {"text": "About", "url": "./"},
         {"text": "Contact", "url": "#"}
       ]
     },

@@ -82,7 +82,7 @@ function getPartials(acc, embedderDir, template) {
 }
 
 gulp.task('build', 'build', function(cb) {
-  runSequence('clean', 'highlight', 'img', 'postcss', 'posthtml', 'www',
+  runSequence('clean', 'highlight', 'img', 'postcss', 'posthtml', 'pages',
       'validate', 'bundle', cb);
 });
 
@@ -112,28 +112,28 @@ const inlineTransformation = {
   }
 }
 
-gulp.task('www', function() {
+gulp.task('pages', function() {
   const plugins = [
     require('posthtml-include')({
       encoding: 'utf-8'
     }),
     require('posthtml-inline-assets')({
-      from: config.dest.www_pages,
+      from: config.dest.default,
       inline: inlineTransformation,
     }),
   ];
   const options = {};
-  return gulp.src(config.src.www_pages)
+  return gulp.src(config.src.page_templates)
     .pipe(mustacheStream())
     .pipe(posthtml(plugins, options))
-    .pipe(gulp.dest(config.dest.www_pages))
+    .pipe(gulp.dest(config.dest.default))
+
 });
 
 gulp.task('watch', 'watch stuff', ['build'], function() {
   return gulp.watch([
     config.src.components,
     config.src.templates,
-    config.src.www_pages,
     config.src.css,
     config.src.data,
     config.src.img],
@@ -144,7 +144,6 @@ gulp.task('fast-watch', 'watch stuff', ['build'], function() {
   return gulp.watch([
       config.src.components,
       config.src.templates,
-      config.src.www_pages,
       config.src.css,
       config.src.data,
       config.src.img],
