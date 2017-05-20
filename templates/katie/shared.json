@@ -15,9 +15,6 @@
         "link": {"url": "./experience.html", "text": "Experience"}
       },
       {
-        "link": {"url": "#", "text": "Blog"}
-      },
-      {
         "link": {"url": "./natural-sciences.html", "text": "Natural Sciences"}
       }
     ],

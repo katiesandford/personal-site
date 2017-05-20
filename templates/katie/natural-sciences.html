@@ -26,9 +26,65 @@ limitations under the License.
 {{/hero}}
 <main id="about" role="main" class="">
     <article class="photo-article">
-        <p class="ampstart-dropcap mb4 px3">My experience</p>
-        <p class="mb4 px3">Mauris aliquet eleifend lacinia. Maecenas non finibus ante, et maximus urna. In non enim a lectus molestie tincidunt. Curabitur eu tortor odio. Aliquam bibendum elit risus, vitae rutrum ex placerat eget.</p>
-        <p class="mb4 px3">Mauris aliquet eleifend lacinia. Maecenas non finibus ante, et maximus urna. In non enim a lectus molestie tincidunt. Curabitur eu tortor odio. Aliquam bibendum elit risus, vitae rutrum ex placerat eget.</p>
+
+        {{#university}}
+        <section class="container px2 py3">
+            <div class="clearfix mxn2 overflow-hidden">
+                {{#msc}}
+                <div class="sm-col sm-col-8 px2 mb4">
+                    {{#title}}
+                    <h4 class="mb1">{{title}}</h4>
+                    {{/title}}
+                    {{#subtitle}}
+                    <h5 class="mb1"><strong>{{subtitle}}</strong></h5>
+                    {{/subtitle}}
+                    {{#text}}
+                    <p class="mb4">{{text}}</p>
+                    {{/text}}
+                    <ul>
+                    {{#list}}
+                        <li>{{text}}</li>
+                    {{/list}}
+                    </ul>
+                    {{#button}}
+                    <a href="{{{url}}}"target="_blank">
+                        <button class="btn btn-primary">{{text}}</button>
+                    </a>
+                    <div class="mb4"></div>
+                    {{/button}}
+                </div>
+                <div class="sm-col sm-col-4 px2 center mb4">
+                    {{#image}}
+                    <amp-img class="rounded" src="{{{url}}}" alt="{{{alt}}}" height="{{height}}" width="{{width}}"></amp-img>
+                    {{/image}}
+                </div>
+                {{/msc}}
+                {{#ba}}
+                <div class="sm-col sm-col-8 px2 mb4">
+                    {{#title}}
+                    <h4 class="mb1">{{title}}</h4>
+                    {{/title}}
+                    {{#subtitle}}
+                    <h5 class="mb1"><strong>{{subtitle}}</strong></h5>
+                    {{/subtitle}}
+                    {{#text}}
+                    <p class="mb">{{text}}</p>
+                    {{/text}}
+                    <ul>
+                        {{#list}}
+                        <li>{{text}}</li>
+                        {{/list}}
+                    </ul>
+                </div>
+                <div class="sm-col sm-col-4 px2 center mb4">
+                    {{#image}}
+                    <amp-img class="rounded" src="{{{url}}}" alt="{{{alt}}}" height="{{height}}" width="{{width}}"></amp-img>
+                    {{/image}}
+                </div>
+                {{/ba}}
+            </div>
+        </section>
+        {{/university}}
 
     </article>
 </main>

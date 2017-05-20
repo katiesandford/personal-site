@@ -11,6 +11,38 @@
     "hero": {
       "heading": "Natural Sciences",
       "subheading": "University natural sciences work..."
+    },
+    "university": {
+      "msc": {
+          "title": "MSci in Natural Sciences (Systems Biology) 1 st Class",
+          "subtitle" : "University of Cambridge 2009-2012",
+          "text": "My programming career started at the end of university, when I started coding as part of the Systems Biology Course. During this year I became insterested in applying mathematical modelling and statstics to biological systems. In my dissertation I used these techniques to understand the regulation of fat metabolism which in turn is important for understanding human health disorders such as obesity and diabetes.",
+          "button": {
+            "text": "See my dissertation here",
+            "url": "https://drive.google.com/file/d/0BwEgqJ3luxjxZ2d1QlNkT3RESDQ/view?usp=sharing"
+          },
+          "image": {
+            "url": "../../img/cambridge_university.jpg",
+            "alt": "University of Cambridge",
+            "width": "405",
+            "height": "248"
+          }
+        },
+      "ba": {
+          "title": "BA in Natural Sciences (Chemistry) 1 st Class",
+          "subtitle" : "University of Cambridge 2012-2013",
+          "list": [
+            {"text": "2011-2012: Chemistry – wide range of modules."},
+            {"text": "2010-2011: Physical and Theoretical Chemistry, Organic and Inorganic Chemistry, Materials Science."},
+            {"text": "2009-2010: Chemistry, Mathematics, Materials and Mineral Sciences, Biology of Cells"}
+          ],
+          "image": {
+            "url": "../../img/icons/cambridge_university_logo.png",
+            "alt": "University of Cambridge",
+            "width": "200",
+            "height": "252"
+          }
+        }
     }
   }
 }
