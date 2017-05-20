@@ -134,6 +134,17 @@ gulp.task('watch', 'watch stuff', ['build'], function() {
       ['build']);
 });
 
+gulp.task('fast-watch', 'watch stuff', ['build'], function() {
+  return gulp.watch([
+      config.src.components,
+      config.src.templates,
+      config.src.www_pages,
+      config.src.css,
+      config.src.data,
+      config.src.img],
+    ['img', 'postcss', 'posthtml']);
+});
+
 gulp.task('default', ['build']);
 
 gulp.task('posthtml', 'build kickstart files', function() {

@@ -1,5 +1,8 @@
 {
   "name": "kickstart",
+  "babel": {
+    "presets": ["es2015"]
+  },
   "scripts": {
     "build": "gulp build",
     "clean": "gulp clean",
@@ -26,7 +29,7 @@
     "gulp-replace": "^0.5.4",
     "gulp-util": "3.0.8",
     "gulp-webserver": "^0.9.1",
-    "highlights": "^2.1.1",
+    "highlights": "^    2.1.1",
     "jsdom": "^9.11.0",
     "mustache": "2.3.0",
     "path": "^0.12.7",
