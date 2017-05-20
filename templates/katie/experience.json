@@ -4,8 +4,7 @@
       "title": "Katie Sandford",
       "canonical-path": "templates/article.amp",
       "extensions": [
-        "amp-sidebar",
-        "amp-instagram"
+        "amp-sidebar"
       ],
       "css-path": "templates/article/page.css"
     },
