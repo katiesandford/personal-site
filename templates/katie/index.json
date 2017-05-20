@@ -10,8 +10,12 @@
       "css-path": "templates/article/page.css"
     },
     "hero": {
-      "heading": "Katie Sandford",
-      "subheading": "Developer. Some intro..."
+      "heading": "Hey, I'm Katie",
+      "subheading": "A fullstack web developer working in London",
+      "image": {
+        "url": "../../img/me-iceland.png",
+        "alt": "Me"
+      }
     },
     "fullpage-hero": {
       "heading-html": "Katie Sandford",
