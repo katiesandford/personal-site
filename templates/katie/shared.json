@@ -4,7 +4,8 @@
     "sidebar-id": "header-sidebar",
     "sidebaronly": false,
     "logo": {
-      "name": "KS"
+      "name": "KS",
+      "href": "/"
     },
     "nav": [
       {
@@ -36,13 +37,13 @@
       "links": [
         {"twitter": "https://twitter.com/KatieSandford"},
         {"facebook": "https://www.facebook.com/katie.sandford.3"},
-        {"email": "#"}
+        {"email": "mailto:katie.l.sandford@gmail.com?Subject=Hi"}
       ]
     },
     "faq-links": {
       "links": [
         {"text": "About", "url": "./"},
-        {"text": "Contact", "url": "#"}
+        {"text": "Contact", "url": "mailto:katie.l.sandford@gmail.com?Subject=Hi"}
       ]
     },
     "copyright": {

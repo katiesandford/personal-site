@@ -11,24 +11,10 @@
     },
     "hero": {
       "heading": "Hey, I'm Katie",
-      "subheading": "A fullstack web developer working in London",
+      "subheading": "A fullstack web developer.",
       "image": {
         "url": "../../img/me-iceland.png",
         "alt": "Me"
-      }
-    },
-    "fullpage-hero": {
-      "heading-html": "Katie Sandford",
-      "narrow-img": "../../img/katie/rock-climbing.jpg",
-      "wide-img": "../../img/katie/rock-climbing.jpg",
-      "credit": {
-        "credit-prefix": "",
-        "author": {"text": "Developer", "url": "#"},
-        "credit-suffix": ""
-      },
-      "readmore": {
-        "text": "Read more",
-        "content-id": "about"
       }
     },
     "intro": {
@@ -38,9 +24,9 @@
       "icon-height": 100,
       "icon-width": 100,
       "items": [
-        {"text": "Something about backend dev", "subheading": "Backend", "image": "../../img/icons/technologies/backend.png"},
-        {"text": "Something about frontend dev", "subheading": "Frontend", "image": "../../img/icons/technologies/frontend.png"},
-        {"text": "Something about science", "subheading": "Chemistry", "image": "../../img/icons/technologies/chemistry.png"}
+        {"text": "Services. Applications. Data", "subheading": "Backend", "image": "../../img/icons/technologies/backend.png"},
+        {"text": "Mobile first. Fast. Testable.", "subheading": "Frontend", "image": "../../img/icons/technologies/frontend.png"},
+        {"text": "Chemistry. Systems Biology.", "subheading": "Natural Sciences", "image": "../../img/icons/technologies/chemistry.png"}
       ]
     },
     "technologies": {
@@ -49,24 +35,24 @@
       "icon-height": 60,
       "icon-width": 60,
       "items": [
-        {"image": "../../img/icons/technologies/java.png"},
-        {"image": "../../img/icons/technologies/python.png"},
-        {"image": "../../img/icons/technologies/html5.png"},
-        {"image": "../../img/icons/technologies/javascript.png"},
-        {"image": "../../img/icons/technologies/css.jpeg"},
-        {"image": "../../img/icons/technologies/php.png"},
-        {"image": "../../img/icons/technologies/git.png"},
-        {"image": "../../img/icons/technologies/sql.png"},
-        {"image": "../../img/icons/technologies/nodejs.png"},
-        {"image": "../../img/icons/technologies/gitlab.png"},
-        {"image": "../../img/icons/technologies/googleanalytics.png"},
-        {"image": "../../img/icons/technologies/googletagmanager.jpeg"},
-        {"image": "../../img/icons/technologies/django.png"},
-        {"image": "../../img/icons/technologies/docker.png"},
-        {"image": "../../img/icons/technologies/fastly.png"},
-        {"image": "../../img/icons/technologies/magnolia.png"},
-        {"image": "../../img/icons/technologies/wordpress.png"},
-        {"image": "../../img/icons/technologies/jira.jpeg"}
+        {"image": "../../img/icons/technologies/java.png", "url": "https://www.java.com/"},
+        {"image": "../../img/icons/technologies/python.png", "url": "https://www.python.org/"},
+        {"image": "../../img/icons/technologies/html5.png", "url": "https://www.w3schools.com/html/html5_intro.asp"},
+        {"image": "../../img/icons/technologies/javascript.png", "url": "https://developer.mozilla.org/docs/Web/JavaScript"},
+        {"image": "../../img/icons/technologies/css.jpeg", "url": "https://developer.mozilla.org/docs/Web/CSS"},
+        {"image": "../../img/icons/technologies/php.png", "url": "http://php.net/"},
+        {"image": "../../img/icons/technologies/git.png", "url": "https://git-scm.com/"},
+        {"image": "../../img/icons/technologies/sql.png", "url": "https://www.mysql.com/"},
+        {"image": "../../img/icons/technologies/nodejs.png", "url": "https://nodejs.org/"},
+        {"image": "../../img/icons/technologies/gitlab.png", "url": "https://gitlab.com/"},
+        {"image": "../../img/icons/technologies/googleanalytics.png", "url": "https://analytics.google.com/"},
+        {"image": "../../img/icons/technologies/googletagmanager.jpeg", "url": "https://www.google.com/analytics/tag-manager/"},
+        {"image": "../../img/icons/technologies/django.png", "url": "https://www.djangoproject.com/"},
+        {"image": "../../img/icons/technologies/docker.png", "url": "https://www.docker.com/"},
+        {"image": "../../img/icons/technologies/fastly.png", "url": "https://www.fastly.com/"},
+        {"image": "../../img/icons/technologies/magnolia.png", "url": "https://www.magnolia-cms.com/"},
+        {"image": "../../img/icons/technologies/wordpress.png", "url": "https://wordpress.com/"},
+        {"image": "../../img/icons/technologies/jira.jpeg", "url": "https://jira.atlassian.com/"}
       ]
     }
   }

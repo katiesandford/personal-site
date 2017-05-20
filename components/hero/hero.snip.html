@@ -1,9 +1,11 @@
 <header class="hero mb3 center">
-    <h1 class="mb4 pt4 px2 col-12 sm-col-8 mx-auto">{{heading}}</h1>
+    <h1 class="mb2 pt4 px2 col-12 sm-col-8 mx-auto">{{heading}}</h1>
     <div class="h3 block mb4 px2 col-12 sm-col-8 mx-auto hero__subheading">
         <div class="mb4">{{subheading}}</div>
+        {{#image}}
         <div>
             <amp-img src="{{{image.url}}}" alt="{{{image.alt}}}"width="150" height="150" class="circle"></amp-img>
         </div>
+        {{/image}}
     </div>
     </header>
