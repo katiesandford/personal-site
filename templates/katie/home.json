@@ -9,38 +9,6 @@
       ],
       "css-path": "templates/article/page.css"
     },
-    "navbar": {
-      "name": "Menu",
-      "sidebar-id": "header-sidebar",
-      "sidebaronly": false,
-      "logo": {
-        "name": "KS"
-      },
-      "nav": [
-        {
-          "link": {"url": "./home.html", "text": "About"}
-        },
-        {
-          "link": {"url": "./experience.html", "text": "Experience"}
-        },
-        {
-          "link": {"url": "#", "text": "Blog"}
-        },
-        {
-          "link": {"url": "./natural-sciences.html", "text": "Natural Sciences"}
-        }
-      ],
-      "faq": {
-        "links": [
-          {
-            "link": {"url": "./home.html", "text": "About"}
-          },
-          {
-            "link": {"url": "#", "text": "Contact"}
-          }
-        ]
-      }
-    },
     "hero": {
       "heading": "Katie Sandford",
       "subheading": "Developer. Some intro..."
@@ -96,24 +64,6 @@
         {"image": "../../img/icons/technologies/wordpress.png"},
         {"image": "../../img/icons/technologies/jira.jpeg"}
       ]
-    },
-    "footer": {
-      "social-follow": {
-        "links": [
-          {"twitter": "https://twitter.com/KatieSandford"},
-          {"facebook": "https://www.facebook.com/katie.sandford.3"},
-          {"email": "#"}
-        ]
-      },
-      "faq-links": {
-        "links": [
-          {"text": "About", "url": "#about"},
-          {"text": "Contact", "url": "#"}
-        ]
-      },
-      "copyright": {
-        "text": "© Katie Sandford, 2017"
-      }
     }
   }
 }

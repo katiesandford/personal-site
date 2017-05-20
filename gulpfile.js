@@ -29,13 +29,19 @@ require('./tasks');
 
 const partialsMap = Object.create(null);
 
+function getSharedData() {
+  return JSON.parse(fs.readFileSync(config.src.shared_data));
+}
+
 function getData(opt_path) {
   var path = 'data.json';
   var jsonPath = (opt_path || '').replace(/html$/, 'json');
   if (opt_path && jsonPath && fs.existsSync(jsonPath)) {
     path = jsonPath;
   }
-  return JSON.parse(fs.readFileSync(path));
+  var pageData = JSON.parse(fs.readFileSync(path));
+  // Merge page and shared data
+  return Object.assign({}, pageData, getSharedData());
 }
 
 function mustacheStream() {

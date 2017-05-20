@@ -23,6 +23,7 @@ module.exports = {
     css: ['css/**/*.css', '!css/ampstart-base/**/*.css'],
     data: '*/**/*.json',
     img: 'img/**',
+    shared_data: 'templates/katie/shared.json'
   },
   dest: {
     default: 'dist',
