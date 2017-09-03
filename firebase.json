@@ -3,8 +3,13 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist",
     "cleanUrls": true,
-    "redirects": []
+    "redirects": [],
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
